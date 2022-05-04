@@ -4,7 +4,7 @@ import theano.tensor as T
 from .base import Layer
 from ..random import get_rng
 
-from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
+from theano.sandbox.rng_mrg import MRG_RandomStream as RandomStreams
 
 
 __all__ = [

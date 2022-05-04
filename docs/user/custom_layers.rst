@@ -141,7 +141,7 @@ Lasagne's :class:`lasagne.layers.DropoutLayer` looks roughly like this
 
 .. code:: python
 
-    from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
+    from theano.sandbox.rng_mrg import MRG_RandomStream as RandomStreams
     _srng = RandomStreams()
 
     class DropoutLayer(Layer):
